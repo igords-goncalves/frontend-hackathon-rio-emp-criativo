@@ -1,0 +1,10 @@
+.inputRadio {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    padding: 8px 4px;
+    & label {
+        cursor: pointer;
+    }
+}
