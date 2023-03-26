@@ -1,25 +1,27 @@
 .recentlyEvents {
-    margin: 0 auto;
-    width: 90%;
+  padding: 0 16px;
 
-    & h2 {
-        margin-bottom: 1rem;
-    }
-    & nav {
-        overflow-x: scroll;
+  & h2 {
+    padding: 1rem 0;
+    border-bottom: 1px solid lightgrey;
+  }
 
-        & ul {
-            display: flex;
-            list-style: none;
-            margin-bottom: 2rem;
-            gap: 1rem ;
-            & li {
-                padding: 4px 8px;
-                border: 1px solid #E56700;
-                border-radius: 16px;
-                min-width: 6rem;
-                text-align: center;
-            }
-        }
+  & nav {
+    overflow-x: scroll;
+
+    & ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 1rem 0;
+      gap: 1rem;
+
+      & li {
+        padding: 4px 8px;
+        border: 1px solid #e56700;
+        border-radius: 16px;
+        text-align: center;
+      }
     }
-} 
+  }
+}
