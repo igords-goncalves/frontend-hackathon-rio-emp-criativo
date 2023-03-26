@@ -1,11 +1,9 @@
 import React from "react";
+import TelaLogin from "./Pages/TelaLogin/TelaLogin";
+import Home from "./Pages/Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import TelaLogin from './pages/TelaLogin/TelaLogin';
-import Home from './pages/Home/home';
 import { FormLoginSuplier } from "./pages/FormLoginSuplier/FormLoginSuplier";
 import { FormRegisterSuplier } from "./pages/FormRegisterSuplier/FormRegisterSuplier";
-
-
 
 function App() {
   return (
