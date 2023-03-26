@@ -37,8 +37,8 @@ export default function Home() {
               o horário dos eventos e atrações. Fique à vontade para criar o dia
               ideal ao filtrar o que é a sua cara!
             </p>
-            <Link to='/login'>
-              <Button textButton='Criar' />
+            <Link to='/circuitos'>
+              <Button textButton='Criar Roteiro' />
             </Link>
           </div>
         </section>

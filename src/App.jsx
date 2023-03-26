@@ -14,7 +14,7 @@ function App() {
         <Route path='/login' element={<TelaLogin />} />
         <Route path='/loginAccess' element={<FormLoginSuplier />} />
         <Route path='/loginRegister' element={<FormRegisterSuplier />} />
-        <Route path='/circuito' element={<TelaCircuito />} />
+        <Route path='/circuitos' element={<TelaCircuito />} />
       </Routes>
     </BrowserRouter>
   )

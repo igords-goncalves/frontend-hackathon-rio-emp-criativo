@@ -1,0 +1,36 @@
+.container {
+  padding: 8px 24px;
+}
+
+.div_container .top_nav {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: rgba(249, 249, 249, 0.94);
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+.div_container .top_nav .top_nav_link {
+  text-decoration: none;
+  color: rgb(229, 103, 0);
+  font-size: 17px;
+}
+.div_container .top_nav p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+.div_container .top_nav div {
+  width: 45px;
+}
+.div_container h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  border-bottom: 1px solid lightgray;
+}
+.div_container h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: rgb(229, 103, 0);
+}/*# sourceMappingURL=telaCircuito.module.css.map */
