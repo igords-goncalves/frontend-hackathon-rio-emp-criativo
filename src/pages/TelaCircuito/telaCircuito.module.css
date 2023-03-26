@@ -1,0 +1,54 @@
+.container {
+  padding: 8px 24px;
+}
+
+.div_container .top_nav {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: rgba(249, 249, 249, 0.94);
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+.div_container .top_nav .top_nav_link {
+  text-decoration: none;
+  color: rgb(229, 103, 0);
+  font-size: 17px;
+}
+.div_container .top_nav p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+.div_container .top_nav div {
+  width: 45px;
+}
+.div_container h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  border-bottom: 1px solid lightgray;
+}
+.div_container h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: rgb(229, 103, 0);
+}
+.div_container .circuito_da_semana {
+  position: relative;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 0 24px 16px;
+}
+.div_container .circuito_da_semana img {
+  width: 100%;
+  border-radius: 12px;
+}
+.div_container .circuito_da_semana p {
+  position: absolute;
+  left: 32px;
+  bottom: 24px;
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+}/*# sourceMappingURL=telaCircuito.module.css.map */

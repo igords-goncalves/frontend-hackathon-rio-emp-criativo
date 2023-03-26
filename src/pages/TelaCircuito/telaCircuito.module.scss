@@ -1,0 +1,71 @@
+.container {
+  padding: 8px 24px;
+}
+
+.div_container {
+  .top_nav {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+
+    background-color: rgba(249, 249, 249, 0.94);
+
+    border-bottom: 1px solid lightgray;
+
+    justify-content: space-between;
+
+    .top_nav_link {
+      text-decoration: none;
+      color: rgba(229, 103, 0, 1);
+      font-size: 17px;
+    }
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+    }
+
+    div {
+      width: 45px;
+    }
+  }
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+
+    border-bottom: 1px solid lightgray;
+  }
+
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: rgba(229, 103, 0, 1);
+  }
+
+  .circuito_da_semana {
+    position: relative;
+
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 0 24px 16px;
+
+    img {
+      width: 100%;
+
+      border-radius: 12px;
+    }
+
+    p {
+      position: absolute;
+      left: 32px;
+      bottom: 24px;
+
+      color: white;
+      font-size: 42px;
+      font-weight: 700;
+    }
+  }
+}
