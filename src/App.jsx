@@ -1,10 +1,9 @@
-import { FormLoginSuplier } from "./Pages/FormLoginSuplier/FormLoginSuplier"
-import { FormRegisterSuplier } from "./Pages/FormRegisterSuplier/FormRegisterSuplier"
+import { RecentlyEvents } from "./components/RecentlyEvents/RecentlyEvents"
 
 function App() {
   return (
     <div className="App">
-      <FormRegisterSuplier/>
+      <RecentlyEvents/>
     </div>
   )
 }
