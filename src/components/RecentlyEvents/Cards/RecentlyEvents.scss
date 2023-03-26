@@ -1,0 +1,25 @@
+.recentlyEvents {
+    margin: 0 auto;
+    width: 90%;
+
+    & h2 {
+        margin-bottom: 1rem;
+    }
+    & nav {
+        overflow-x: scroll;
+
+        & ul {
+            display: flex;
+            list-style: none;
+            margin-bottom: 2rem;
+            gap: 1rem ;
+            & li {
+                padding: 4px 8px;
+                border: 1px solid #E56700;
+                border-radius: 16px;
+                min-width: 6rem;
+                text-align: center;
+            }
+        }
+    }
+} 

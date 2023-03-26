@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    
+    h1,
+    p {
+        color: #fff;
+        line-height: 41px;
+    }
+    p{
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    
+    }
+}
+
+.div_botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.extra {
+    background-color: black;
+    color: white;
+  }
+  
+  
