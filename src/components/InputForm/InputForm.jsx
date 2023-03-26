@@ -48,6 +48,7 @@ export function InputForm(props) {
     }
     
     return(
+
         
         <div className='inputBox'>
             <label htmlFor={props.id}>{props.label}</label>
