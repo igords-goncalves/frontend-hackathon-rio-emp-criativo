@@ -1,9 +1,8 @@
-
-import styles from './cardSlide.module.scss';
+import styles from './cardSlide.module.scss'
 
 export default function CardSlider(props) {
-  const { images, descriptions } = props;
-  return(
+  const { images, descriptions } = props
+  return (
     <div className={styles.carrossel}>
       {images.map((image, index) => (
         <div className={styles.slide} key={index}>

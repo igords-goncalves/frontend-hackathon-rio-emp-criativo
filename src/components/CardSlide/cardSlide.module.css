@@ -1,0 +1,28 @@
+.carrossel {
+  display: flex;
+  max-width: 400px;
+  gap: 24px;
+  overflow-x: scroll;
+  margin: 0 28px 8px;
+}
+.carrossel .slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  position: relative;
+}
+.carrossel .slide img {
+  border-radius: 8px;
+  width: 250px;
+}
+.carrossel .slide .description {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: white;
+  left: 1rem;
+  bottom: 0;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=cardSlide.module.css.map */
