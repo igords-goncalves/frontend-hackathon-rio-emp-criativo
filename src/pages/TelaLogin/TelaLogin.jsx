@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../components/Button/button';
 import backgroundImg from "../../images/telaLogin.png"
 import styles from './telaLogin.module.scss';
-
+import { Link } from "react-router-dom"
 
 export default function TelaLogin() {
     return (
