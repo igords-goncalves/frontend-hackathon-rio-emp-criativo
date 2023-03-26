@@ -52,13 +52,13 @@ export default function TelaCircuito() {
 
       <CardSlide images={images2} descriptions={descriptions2} />
 
-      <div className={styles.container}>
-        <h3>Circuito da Semana</h3>
-      </div>
+      <div className={styles.circuito_da_semana}>
+        <div className={styles.container}>
+          <h3>Circuito da Semana</h3>
+        </div>
 
-      <div>
         <img src={image3} alt={`Imagem`} />
-        <p>Turista</p>
+        <p>Shows</p>
       </div>
 
       <div className={styles.container}>
