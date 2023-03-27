@@ -63,7 +63,15 @@ section {
         font-family: 'Inter', sans-serif;
         font-size: 15px;
       }
+      & a {
+        margin: 0;
+        width: 100%;
 
+        & div {
+          width: 100%;
+          margin: 0;
+        }
+      }
       button {
         border: none;
 
