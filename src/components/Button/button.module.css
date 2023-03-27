@@ -1,13 +1,10 @@
 .button {
   width: 100%;
-
   border: none;
   border-radius: 14px;
-
   padding: 16px;
-  background-color: rgba(149, 5, 227, 1);
-
-  font-family: 'Inter', sans-serif;
+  background-color: rgb(149, 5, 227);
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: white;
@@ -20,4 +17,4 @@
 
 a {
   text-decoration: none;
-}
+}/*# sourceMappingURL=button.module.css.map */
