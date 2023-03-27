@@ -104,7 +104,9 @@ export default function Filter() {
             </div>
 
             <br />
-            <button onClick={handleFiltro}>Filtrar</button>
+            <Link to="/circuitos">
+                <button onClick={handleFiltro}>Filtrar</button>
+            </Link>
         </div>
     );
 }
