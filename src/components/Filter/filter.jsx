@@ -45,7 +45,6 @@ export default function Filter() {
 
             <div className="modal-options">
                 <label>
-                    Horário:
                     <select value={horario} onChange={handleHorarioChange}>
                         <option value="manha">Manhã</option>
                         <option value="tarde">Tarde</option>
@@ -55,7 +54,6 @@ export default function Filter() {
                 </label>
                 <br />
                 <label>
-                    Segmento:
                     <select value={segmento} onChange={handleSegmentoChange}>
                         <option value="teatro">Teatro</option>
                         <option value="cinema">Cinema</option>
@@ -68,7 +66,6 @@ export default function Filter() {
                 </label>
                 <br />
                 <label>
-                    Valor:
                     <select value={valor} onChange={handleValorChange}>
                         <option value="gratis">Grátis</option>
                         <option value="ate20">Até R$ 20,00</option>
@@ -79,7 +76,6 @@ export default function Filter() {
                 </label>
                 <br />
                 <label>
-                    Público Alvo:
                     <select
                         value={publicoAlvo}
                         onChange={handlePublicoAlvoChange}
@@ -91,7 +87,6 @@ export default function Filter() {
                 </label>
                 <br />
                 <label>
-                    Localidade:
                     <select
                         value={localidade}
                         onChange={handleLocalidadeChange}
